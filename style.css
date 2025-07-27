@@ -1,0 +1,179 @@
+body {
+  background-color: hsl(47, 88%, 63%);
+  padding: 6.67% 34.8%;
+  margin: 0px;
+}
+#blog {
+  border-radius: 20px;
+  font-family: 'Figtree', sans-serif;
+  background-color: hsl(0, 0%, 100%);
+  padding: 4%;
+  box-shadow: 8px 8px;
+}
+.container {
+  /*position: relative; */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.gregimg {
+  margin-right: 5%;
+  width: 10%;
+  height: 10%;
+  align-self: center;
+}
+.attribution {
+  margin-top: 10px;
+}
+.wei {
+  font-weight: 800;
+  color: hsl(0, 0%, 7%);
+}
+.greg {
+  align-self: center;
+  /*position: absolute;
+  right: 61%; 230
+  bottom: 1px;*/
+}
+p {
+  font-size: 100%;
+
+  font-weight: 500;
+}
+.gray1 {
+  color: hsl(0, 0%, 42%);
+  padding-right: 0.37%;
+}
+
+.cardimg {
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 15px;
+}
+.btn {
+  border: hidden;
+  border-radius: 5px;
+  color: hsl(0, 0%, 7%);
+  font-size: 15px;
+  background: hsl(47, 88%, 63%);
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: hsl(47, 88%, 63%);
+  text-decoration: none;
+}
+h2:hover {
+  color: hsl(47, 88%, 63%);
+}
+@media (max-width: 375px) {
+  body {
+    padding: 30.67% 5.8%;
+  }
+  .gray1 {
+    font-size: 90%;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  .greg {
+    font-size: 90%;
+    align-self: center;
+    margin-bottom: 10px;
+  }
+}
+/* RESPONSIVE CSS */
+
+/*----------------------------- Small Laptop -------------------------------*/
+/*---------------------------- CHECK ON 1280 ----------------------------*/
+@media only screen and (max-width: 1280px) and (min-width: 1101px) {
+  body {
+    padding: 30.67% 20.8%;
+  }
+  .gray1 {
+    font-size: 90%;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  .greg {
+    font-size: 90%;
+    align-self: center;
+    margin-bottom: 10px;
+  }
+}
+
+/*----------------------------- Small Screen -------------------------------*/
+/*----------------------------- Media 1024 -------------------------------*/
+@media only screen and (max-width: 1100px) {
+  body {
+    padding: 30.67% 20.8%;
+  }
+  .gray1 {
+    font-size: 90%;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  .greg {
+    font-size: 90%;
+    align-self: center;
+    margin-bottom: 10px;
+  }
+}
+
+/*----------------------------- Tablet -------------------------------*/
+/*----------------------------- Media 768 -------------------------------*/
+@media only screen and (max-width: 999px) {
+  body {
+    padding: 30.67% 20.8%;
+  }
+  .gray1 {
+    font-size: 90%;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  .greg {
+    font-size: 90%;
+    align-self: center;
+    margin-bottom: 10px;
+  }
+}
+
+/*----------------------------- Mobile Large -------------------------------*/
+/*----------------------------- Media 480 -------------------------------*/
+@media only screen and (max-width: 767px) {
+  body {
+    padding: 30.67% 20.8%;
+  }
+  .gray1 {
+    font-size: 90%;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  .greg {
+    font-size: 90%;
+    margin-bottom: 10px;
+  }
+}
+
+/*----------------------------- Mobile Small -------------------------------*/
+/*----------------------------- Media 320 -------------------------------*/
+@media only screen and (max-width: 479px) {
+  body {
+    padding: 30.67% 5.8%;
+  }
+  .gray1 {
+    font-size: 90%;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  .greg {
+    font-size: 90%;
+    margin-bottom: 10px;
+  }
+}
